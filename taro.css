@@ -1,0 +1,97 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .row{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .col-50{
+    flex: 80%;
+    background-color: #56B9E3;
+    }
+
+    .background-color{
+    background-color: #56B9E3;
+    }
+
+    .background-color1{
+    background-color: #55B3DC;
+    }
+
+    .background-color2{
+    background-color: #539FC0;
+    }
+
+    .image-size{
+        width: 35;
+        height: 50;
+    }
+
+    .hero-banner-text{
+        position: absolute;
+        font-size: 48px;
+        top: 300px;
+    }
+
+    @font-face{
+        font-family:SuperToast;
+        src: url(font/Super\ Toast\ Personal\ Use.ttf);
+    }
+    @font-face{
+        font-family: HeyComic;
+        src: url(font/Hey\ Comic.otf);
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .dropbtn{
+    display: inline-block;
+    font-family: SuperToast;
+    font-size: 30px;
+    color: white;
+    background-color: #4a9fc4;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+    }
+
+    .dropdown{
+    position: relative;
+    }
+
+    .dropdown-content{
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 200ms ease-in-out;
+        position: absolute;
+        min-width: 160px;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px;
+    }
+
+    .dropdown-content a {
+    display: block;
+    background-color: #55B3DC;
+    padding: 12px 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+    }
+
+    .dropdown a:hover{
+        background-color: #539FC0;
+    }
+
+    .dropbtn:hover+.dropdown-content,.dropdown-content:hover{
+        pointer-events: auto;
+        opacity: 1;
+    }
+    
+    .colum-50{
+        flex: 50%;
+        }
